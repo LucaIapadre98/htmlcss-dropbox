@@ -145,8 +145,134 @@ span{
     margin-right: -1rem;
 }
 .col-bottom{
-    width: 100%;
-     border: 1px solid black;
+     width: 80%;
+     border: 1px solid #3b3b3b;
      height: 200px;
-     width: 100%;
+     margin-left: 33px;
  }
+ .item{
+    padding: 15px;
+    border-bottom: 1px solid #3b3b3b;
+    text-align: center;
+ }
+ .item-center{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+ }
+ .item-center-right nav {
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 0;
+    background-color: #6b6bff;
+ }
+ .item-center-right > nav > a{
+    color: white;
+ }
+ .big-photo{
+    height: 550px;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ .row-big{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding-top: 30px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+ }
+ .conteiner-big{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+ .row-big .col-1-2-big{
+    width: calc(100% / 2);
+ }
+
+ .row-big .col-1-3-big{
+    width: calc(100% / 3);
+   
+ }
+
+ .row-big >.col-1-2-big >img{
+    height: 400px;
+    width: 400px;
+ }
+
+.row-big > .col-1-3-big > h3{
+    padding-top: 50px;
+}
+.row-big > .col-1-3-big > p{
+    padding: 0;
+    padding-bottom: 20px;
+}
+.row-big > .col-1-3-big > nav > a{
+    border: 1px solid black;
+    padding: 3px;
+}
+ .title-business h2{
+    text-align: center;
+ }
+
+ .conteiner-row-bottom{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+   
+    display: flex;
+    height: 500px;
+ }
+ .row-bottom-2{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding-top: 30px;
+    
+    padding-left: 200px;
+    padding-right: 150px;
+
+ }
+ .col-1-4{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+ .col-1-5{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+ .col-1-6{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+ .col-1-7{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+ .col-1-8{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+ .col-1-9{
+    width: calc(100 / 3);
+     border: 1px solid black;
+     height: 500px;
+     width: 200px;
+ }
+
+ 
