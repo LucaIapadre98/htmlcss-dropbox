@@ -133,3 +133,20 @@ span{
     background-color: #6b6bff;
     color: white;
 }
+.row-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    width: 100%;
+    justify-content: center;
+
+    padding-top: 30px;
+    margin-left:-1rem ;
+    margin-right: -1rem;
+}
+.col-bottom{
+    width: 100%;
+     border: 1px solid black;
+     height: 200px;
+     width: 100%;
+ }
