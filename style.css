@@ -278,12 +278,41 @@ span{
     margin: 0;
  }
  .conteiner-footer{
-    height: 600px;
     width: 100%;
-    background-color: #2a2a2a;
-    display: flex;
+    height: 500px;
+    background-color: hwb(0 8% 92%);
+    margin-top: 100px;
  }
- 
+ .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 200px;
+ }
+ .footer-row .col-1-5{
+    width: calc(100% / 5);
+    height: 200px;
+ }
+ .footer-row .col-1-5 > p{
+      padding-left: 0;
+      color: white;
+      padding: 0;
+      
+ }
+
+ .footer-row .col-1-5 h3{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+ }
+ .conteiner-footer .footer-bottom{
+    padding: 80px 180px;
+    color: white;
+ }
+ .conteiner-footer .footer-bottom i{
+    margin: 6px;
+ }
+
+
 
 
 
