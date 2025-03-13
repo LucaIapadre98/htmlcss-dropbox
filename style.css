@@ -6,7 +6,9 @@ body{
     display: flex;
     justify-content: space-between;
     height: 50px;
+   
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -97,7 +99,7 @@ h2{
 span{
     margin: 50px;
 }
-.conteiner-2{
+#type-pay .conteiner-2{
     max-width: 1100px;
     margin-left:auto ;
     margin-right:auto ;
@@ -106,7 +108,7 @@ span{
     
 }
 
-.row-2{
+#type-pay .conteiner-2 .row-2{
     display: flex;
     flex-wrap: wrap;
     row-gap: 1rem;
@@ -117,7 +119,7 @@ span{
     margin-left:-1rem ;
     margin-right: -1rem;
 }
-.col-1-3{
+#type-pay .col-1-3{
    width: calc(100 / 3);
     border: 1px solid black;
     height: 500px;
@@ -175,7 +177,7 @@ span{
     margin-left: 100px;
     margin-right: 100px;
  }
- .row-big{
+ #contatt .row{
     display: flex;
     flex-wrap: wrap;
     row-gap: 2rem;
@@ -183,96 +185,61 @@ span{
     margin-left: -1rem;
     margin-right: -1rem;
  }
- .conteiner-big{
+ #contatt .conteiner-big{
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 1rem;
     padding-left: 1rem;
 }
- .row-big .col-1-2-big{
+ #contatt.row .col-1-2{
     width: calc(100% / 2);
  }
 
- .row-big .col-1-3-big{
+ #contatt .row .col-1-3{
     width: calc(100% / 3);
    
  }
 
- .row-big >.col-1-2-big >img{
+ #contatt .row >.col-1-2 >img{
     height: 400px;
     width: 400px;
  }
 
-.row-big > .col-1-3-big > h3{
+#contatt .row > .col-1-3 > h3{
     padding-top: 50px;
 }
-.row-big > .col-1-3-big > p{
+#contatt .row > .col-1-3 > p{
     padding: 0;
     padding-bottom: 20px;
 }
-.row-big > .col-1-3-big > nav > a{
-    border: 1px solid black;
+#contatt .row > .col-1-3 > nav > a{
+   border: 1px solid black;
     padding: 3px;
 }
- .title-business h2{
-    text-align: center;
- }
 
- .conteiner-row-bottom{
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 50px;
-   
-    display: flex;
-    height: 500px;
- }
- .row-bottom-2{
+
+#title-business .conteiner{
+    padding: 30px;
+    justify-content: center;
+    border: 30px;
+}
+#title-business h2{
+    font-size: 45px;
+}
+
+#title-business > .conteiner-row{
+    padding-left: 400px;
+    padding-right: 200px;
+    
+}
+#title-business .conteiner-row .row{
+    padding: 100px;
+    margin: 50px;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 2rem;
-    padding-top: 30px;
-    
-    padding-left: 200px;
-    padding-right: 150px;
+    row-gap: 3rem;
+}
 
- }
- .col-1-4{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
- .col-1-5{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
- .col-1-6{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
- .col-1-7{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
- .col-1-8{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
- .col-1-9{
-    width: calc(100 / 3);
-     border: 1px solid black;
-     height: 500px;
-     width: 200px;
- }
 
- 
+
